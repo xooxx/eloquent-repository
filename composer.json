@@ -1,0 +1,23 @@
+{
+    "name": "xooxx/eloquent-repository",
+    "description": "Simple Eloquent Repository Implementation",
+    "type": "library",
+    "require": {
+        "xooxx/repository": "^1.0",
+        "xooxx/assert": "^1.0",
+        "illuminate/database": ">=4.2",
+        "illuminate/pagination": ">=4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xooxx",
+            "email": "xooxx.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Xooxx\\Foundation\\Infrastructure\\Model\\Repository\\Eloquent\\": "src/"
+      }
+    }
+}
